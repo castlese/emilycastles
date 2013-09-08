@@ -1,14 +1,7 @@
-#safe:        false
-auto:        true
-server:      true
-server_port: 4000
-baseurl:     /
-#url: http://localhost:4000
-source:      .
-destination: ./_site
-#plugins:     ./_plugins
-future:      false
-lsi:         true
-#pygments:    false
-#markdown:    maruku
-permalink:   pretty
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+port: 4000
+safe: true
+server: true
+

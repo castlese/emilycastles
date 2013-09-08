@@ -1,0 +1,5 @@
+.row.full-width { width: 100%; max-width: 100%; }
+
+.banner, footer{background-color: whitesmoke; min-height:200px;}
+
+.banner h1{width: 80%; height: 200px; margin: 0 auto; position: relative; bottom: 0; text-align: center;}

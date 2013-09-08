@@ -5,6 +5,15 @@ pagetitle: Page <TITLE>
 description: Page <DESCRIPTION>
 ---
 
-# {{page.title}}
 
-This is a simple _jekyll_ Boilerplate. Prevents me from having to set this (folder structure, etc) up for every new Jekyll project. That's all...
+<div id="home">
+
+    {% for post in site.posts %}
+      <div>
+        <h2 a href="{{ post.url }}">{{ post.title }}</h2>
+        <h4>{{ post.date | date_to_string }}</h4>
+        <p>{{ post.description }}</p>
+      </div>
+    {% endfor %}
+
+</div>
