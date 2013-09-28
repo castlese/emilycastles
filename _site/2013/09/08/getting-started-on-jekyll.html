@@ -1,13 +1,153 @@
-<h1>Getting started on Jekyll</h1>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title> | [SITE]</title>
+
+		<meta name="description" content="I've been threatening to start a small blog for ages - mostly for my own benefit to keep track of the things I learn along the way, things I need to refer to frequently and and mistakes I make. I also find that I go to lots of talks and events and would like to keep track of any small nuggets of knowledge I learn, links to slides etc.
+I've been wanting to try out nitrous.io for a while now and I figured this would be a great way to start. Nitrous is a service which provides a development environment in the cloud (wow, I love that phrase so much!). You can set up a Rails, Node.js, Python/Django or Go box and access it from any browser, anywhere. It's great!">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/zurb/foundation.min.css">
+    <link rel="stylesheet" href="/static/css/zurb/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <script src="/static/js/vendor/zurb/modernizr.foundation.js"></script>
+		<link rel="stylesheet" href="/static/css/main.css">
+
+		<script>with(document.documentElement){className=className.replace(/\bno-js\b/,'js')}</script>
+
+		<!-- <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script> -->
+		<!--[if lt IE 9]><script src="/static/js/vendor/html5shiv.js"></script><![endif]-->
+	</head>
+	<body>
+  
+<!-- Header and Nav -->
+  
+  <div class="full-width banner">
+    <div class="row">
+      <div class="four columns">
+    <div class="profile-pic">
+        <img src="assets/emily.jpg">
+      </div>
+      </div>
+      <div class="eight columns">  
+        <h1></h1>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row main-content">    
+    
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="eight columns push-four">   
+      <h1>Getting started on Jekyll</h1>
 
 <p><li><span>jekyll</li></p>
 
 <p><li><span>nitrous</li></p>
 
-<p>This is my first post here. Been threatening to start a small blog for ages - to keep track of all the things I learn, forget or screwed up along the way. </p>
+<p>I&#39;ve been threatening to start a small blog for ages - mostly for my own benefit to keep track of the things I learn along the way, things I need to refer to frequently and and mistakes I make. 
+I also find that I go to lots of talks and events and would like to keep track of any small nuggets of knowledge I learn, links to slides etc. </p>
 
-<p>Set up in nitrous.io - awesome!</p>
+<p>I&#39;ve been wanting to try out nitrous.io for a while now and I figured this would be a great way to start. Nitrous is a service which provides a development environment
+in the cloud (wow, I love that phrase so much!). You can set up a Rails, Node.js, Python/Django or Go box and access it from any browser, anywhere. It&#39;s great!</p>
 
-<p>As per http://yeswejekyll.com/ suggestions, I&#39;ve included a rake task to create new posts here:</p>
+<p>I think it&#39;s going to be particularly useful for this site as I&#39;ve decided to run it using Jekyll - which means instead of having a CMS to update blog posts and content, 
+the content is written statically. This is particularly useful for a developer as I feel Wordpress and other equivalents would be way too heavy for my needs given that I 
+can edit the code relatively quickly.</p>
+
+<p>Setting up nitrous is really easy, just go to <a href="http://nitrous.io">notrous.io</a> and follow the instructions on there. I set up a small rails box - with just 768MB
+of RAM and 1000MB of storage. That&#39;s fine for now. It works really quickly and I can always pay for more memory if needed. Link the box with your github and you&#39;ll be able to 
+push your project to your remote github repository. </p>
+
+<p>Jekyll was also pretty easy to set up. I haven&#39;t used markdown or liquid formats before so I&#39;ll have a bit to play around with there but it doesn&#39;t look all that hard</p>
+
+<p>Instead of manually adding new blog post files, I&#39;ve gone with the suggestion of <a href="http://yeswejekyll.com">yeswejekyll.com</a> and have included a rake task to create new posts:</p>
 
 <p>rake post title=&quot;A Title&quot; [date=&quot;2012-02-09&quot;] [tags=[tag1, tag2]]</p>
+
+<p>Mostly the hard part for me is deciding on colours, fonts and styles - I get lost in that stuff so</p>
+
+    </div>
+    
+    
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="four columns pull-eight sidebar">
+      <div class="holder">      
+        <div class="profile-details">
+          <p>I'm a Ruby on Rails developer working with <a href="http://redhills.ie" target="_blank">Red Hills Software in Dublin</a>. 
+          This site helps me keep track of things I learn, mistakes I've made, new projects, 
+            technologies I'd like to try, technologies I am using and my general development as a developer :)</p>
+          
+          <p> There's always more to learn!</p>
+        </div>
+        <!--New Technologies that I've discovered and that I'm excited about -->
+        <h3>new toys</h3>
+        <ul class="side-nav">
+          <li><a href="https://github.com/swanandp/acts_as_list">acts_as_list gem</a></li>
+          <li><a href="https://github.com/railsbp/rails_best_practices">Rails Best Practices</a></li>
+          <li><a href="https://github.com/flyerhzm/bullet">Bullet Gem</a></li>
+          <li><a href="https://www.nitrous.io">nitrous.io</a></li>
+          <li><a href="http://livereload.com/">livereload</a></li>
+          <li><a href="http://newrelic.com/application-monitoring">New Relic</a></li>
+          <li><a href="http://www.appcelerator.com/">Titanium</a></li>
+          <li><a href="http://jekyllrb.com/">Jekyll</a></li>
+        </ul>
+        <!--Tools, Technologies I like to use -->
+        <h3>Things I use</h3>
+        <ul class="side-nav">
+          <li><a href="#">Ruby on Rails</a></li>
+          <li><a href="#">JQuery</a></li>
+          <li><a href="#">Airbrake</a></li>
+          <li><a href="#">Hip Chat</a></li>
+          <li><a href="#">PostgreSQL</a></li>
+          <li><a href="#">HTML5</a></li>
+          <li><a href="#">Responsive Design</a></li>
+          <li><a href="#">Non Native Mobile</a></li>
+          <li><a href="#">SASS/CSS</a></li>
+          <li><a href="#">MySQL</a></li>
+          <li><a href="#">JQuery Mobile</a></li>
+        </ul>     
+      </div>
+    </div>
+  </div>
+    
+  
+  <!-- Footer -->
+  
+  <footer class="row full-width">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="twelve columns">
+         contact me at emilycastles[at]gmail[dot]com
+        </div>
+      </div>
+    </div> 
+  </footer>
+  
+		
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <!-- Initialize JS Plugins -->
+    <script src="/static/js/vendor/zurb/app.js"></script>
+
+  
+    <script>
+    $(window).load(function(){
+      $("#featured").orbit();
+    });
+    </script> 
+		<script src="/static/js/main.js"></script>
+
+	</body>
+</html>

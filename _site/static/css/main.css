@@ -1,5 +1,28 @@
-.row.full-width { width: 100%; max-width: 100%; }
+/*General Styles */
+.full-width { width: 100%; max-width: 100%; }
+body{color: #666; font-size: 17px; line-height: 1.5em; font-family: 'Roboto', sans-serif;}
+p{font-size: 17px;}
+h1, h2, h3, h4, h5, h6{ font-family: 'Fjalla One', sans-serif; text-transform: lowercase; color: #666}
 
-.banner, footer{background-color: whitesmoke; min-height:200px;}
+/*Top banner */
+.banner{background-color: #D1D1D1; padding-top: 20px} 
+.profile-pic{background-color:#FFFF7E; padding: 34px 20px 6px; text-align: center}
+.profile-pic img{margin: 0 auto; width: 60px; height: 60px; border-radius: 30px; display: inline-block;}
+.banner h1{width: 80%; height: 60px; margin: 0 auto; position: relative; bottom: -45px; display: inline-block;
+ text-indent: -9999; background-image: url("logo.png"); background-repeat: no-repeat;}
 
-.banner h1{width: 80%; height: 200px; margin: 0 auto; position: relative; bottom: 0; text-align: center;}
+/* Main content */
+#home{padding-top: 20px;}
+
+#home .post h4.date{color: #D1D1D1; font-size: 14px; margin-bottom: 0; font-weight: normal;}
+#home .post h2.title{color: #666; font-size: 30px; line-height: 40px; height: 40px;
+   display: inline-block; margin-top: 0; text-transform: lowercase }
+#home .post{border-bottom: 1px solid #D1D1D1;}
+
+/* Sidebar */
+.sidebar .holder{background-color: #FFFF7E; padding: 5px; text-align: center}
+.sidebar h3{text-align: center; font-size: 18px; background: #FFFF80; font-style: italic;}
+
+/*Footer */
+footer{background-color: #D1D1D1; text-align: center}
+
