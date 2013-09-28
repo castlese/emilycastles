@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6{ font-family: 'Fjalla One', sans-serif; text-transform: l
 /*Top banner */
 .banner{background-color: #D1D1D1; padding-top: 20px} 
 .profile-pic{background-color:#FFFF7E; padding: 34px 20px 6px; text-align: center}
-.profile-pic img{margin: 0 auto; width: 60px; height: 60px; border-radius: 30px; display: inline-block;}
+.profile-pic #image-here{margin: 0 auto; width: 60px; height: 60px; border-radius: 30px; display: inline-block; background: url("../../assets/emily.jpg") no-repeat;}
 .banner h1{width: 80%; height: 60px; margin: 0 auto; position: relative; bottom: -45px; display: inline-block;
  text-indent: -9999; background-image: url("logo.png"); background-repeat: no-repeat;}
 

@@ -46,24 +46,18 @@
     <!-- Main Content Section -->
     <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
     <div class="eight columns push-four">   
-      <p>I&#39;ve been doing a lot of unobtrusive Javascript / AJAX stuff in Rails reccently and I&#39;m often coming across the situation where there is an error in my js.erb javascript code, which prevents it
-being rendered as per the explanation that Steve gives here http://www.alfajango.com/blog/rails-js-erb-remote-response-not-executing/</p>
+      <p>http://stackoverflow.com/questions/5170008/rails-validating-inclusion-of-a-boolean-fails-tests</p>
 
-<p>His advice works, however, I mostly use Chrome when developing so here are the equivalent instructions </p>
+<p>migration</p>
 
-<p>Go to Developer Tools
-Settings (bottom right corner) &gt; General &gt; Console
-Tick Log XMLHttpRequests</p>
+<p>def change
+    -add a column which is always true/false but defaults to true
+    add<em>column :table</em>name, :column name, :boolean, :default =&gt; 1
+  end</p>
 
-<p>Refresh the page you&#39;re having trouble with and complete an action that will call the js.erb file you&#39;re having trouble with
-Click on the relevant XHR finished loading: [link]
-This will open up the Network tab where you can see your ajax request. 
-Clicking on the relevant AJAX request will open up more info about it. Go to the Response tab. 
-Copy the javascript from the response tab. 
-Navigate to the Console tab
-Past in your copied javascript
-Press return
-Errors will be found and gifted to you in lovely red writing. </p>
+<p>model</p>
+
+<p>see it&#39;s blank, no validation required. Specifically don&#39;t validate<em>presence</em>of OR validates :inclusion =&gt; (true, false)....</p>
 
     </div>
     
